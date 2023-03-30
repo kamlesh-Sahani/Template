@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>codinghar</title>
+<style>
+    body {
+    background-color: #f5f6f6;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+header {
+    position: relative;
+}
+
+header nav {
+    cursor: pointer;
+    display: flex;
+}
+
+.logo {
+    position: relative;
+    left: 35px;
+    font-size: large;
+    color: rgb(118, 118, 238);
+}
+
+nav ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    margin: auto;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #979797;
+}
+
+nav button a {
+    text-decoration: none;
+    color: white;
+}
+
+nav button {
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(19, 19, 230);
+    height: 40px;
+    width: 100px;
+    right: 40px;
+    top: 18px;
+    border: 1px solid #979797;
+    box-shadow: 1px 1px 5px 1px rgb(207, 202, 202);
+
+}
+
+ul li a:hover {
+    color: #222429;
+    transition: 0.4s;
+}
+
+nav button:hover {
+    transition: 0.4s;
+    background-color: rgb(57, 57, 248);
+}
+
+.container {
+
+    width: 100%;
+    height: 700px;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(53, 52, 52);
+    width: 100%;
+    height: 300px;
+}
+
+
+footer .info ul {
+    position: relative;
+    top: 50px;
+    list-style: none;
+
+}
+
+
+
+.info ul li i {
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.info ul li {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    margin-left: 50px;
+    color: #f5f6f6;
+    line-height: 70px;
+}
+.foot_container{
+display: flex;
+}
+.foot_container .about{
+    position: absolute;
+    width: 300px;
+  right: 80px;
+  top: 50px;
+}
+.about ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.about ul i
+{
+    font-size: 40px;
+    color: #f5f6f6;
+}
+.about h3{
+    margin-left: 30px;
+    color: #f5f6f6;
+}
+.about p{
+    color: #979797;
+    margin-left: 30px;
+}
+.about ul i:hover{
+    color: #979797;
+    transition: 0.4s;
+}
+.info ul li:hover{
+    color: #979797;
+    transition: 0.4s;
+}
+
+</style>
+</head>
+<body>
+    <header>
+     <nav>
+        <div class="logo"><h1>CodinGhar</h1></div>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">services</a></li>
+            <li> <a href="#">blog</a></li>
+            <li> <a href="#">about us</a></li>
+        </ul>
+        <button class="con"><a href="#">contact us</a></button>
+     </nav>
+    </header>
+<div class="container">
+
+</div>
+
+    <footer>
+    <div class="foot_container">
+        <div class="info">
+            <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>21 New Delhi india</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>+91 9667760693</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">contact@mail.com</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+        </div>
+        <div class="about">
+            <h3>about the company</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
+            elit. Eum rerum, tempora fugit facilis totam cumque.</p>
+            <ul>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a></li>
+                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+    </footer>
+</body>
+</html>
